@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "src/main.tsx",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/src/main.tsx"
+    }
+  ],
+  "env": {
+    "VITE_BACKEND_URL": "https://nestjs.site/",
+    "PORT": "3000"
+  }
+}
