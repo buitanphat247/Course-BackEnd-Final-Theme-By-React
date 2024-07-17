@@ -13,7 +13,6 @@
     }
   ],
   "env": {
-    "VITE_BACKEND_URL": "https://nestjs.site/",
-    "PORT": "3000"
+    "VITE_BACKEND_URL": "https://nestjs.site/"
   }
 }
